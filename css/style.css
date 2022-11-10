@@ -60,4 +60,14 @@ h4{
         padding-right: 50px;
     
     }
+    .text-block1{
+        position: absolute;
+        background-color: white;
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-content: center;
+        vertical-align: middle;
+    }
+    
     

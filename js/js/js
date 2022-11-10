@@ -8,3 +8,10 @@ $(document).ready(function () {
 	    $('.text-block6').hide();
 	    $('.text-block7').hide();
 	    $('.text-block8').hide();
+    // $('img#8').animate({
+    //     opacity: 1
+    // });
+    //create a hover effect on each photo on portfolio
+    $('img#work1').hover(function () {
+        $(this).stop().animate({ opacity: .4 });
+        $('.text-block1').fadeToggle();

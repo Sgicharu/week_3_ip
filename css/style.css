@@ -39,4 +39,18 @@ h4{
         background-repeat: no-repeat;
         text-align: center;
         padding:80px;
-        
+    }
+
+    #delani4{
+        text-align: center;
+    }
+    .clickable-a{
+        display: none;
+    }
+    .clickable-b{
+        display: none;
+    }
+    .clickable-c{
+        display: none;
+    }
+    

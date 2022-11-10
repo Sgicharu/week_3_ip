@@ -1,0 +1,10 @@
+$(document).ready(function () {
+	    // hide all the paragraph descriptions
+	    $('.text-block1').hide();
+	    $('.text-block2').hide();
+	    $('.text-block3').hide();
+	    $('.text-block4').hide();
+	    $('.text-block5').hide();
+	    $('.text-block6').hide();
+	    $('.text-block7').hide();
+	    $('.text-block8').hide();

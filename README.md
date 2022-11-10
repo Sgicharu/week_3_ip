@@ -12,10 +12,14 @@ The project is a web application for Delani studio that shows details about the 
 
 ### Setup Instructions
 
-
+ 
+ git clone https://sgicharu.github.io/week_3_ip/
+ Open the code with VS code
+ Go live
 
 ### Live link
 
 https://sgicharu.github.io/week_3_ip/
 
 ### Copyright Information
+c) 2022 Sgicharu

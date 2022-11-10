@@ -5,3 +5,7 @@ body{
 h4{
     font-family: 'Roboto Slab', serif;
 }
+* {
+    box-sizing: border-box;
+  }
+

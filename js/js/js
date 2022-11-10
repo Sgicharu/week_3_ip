@@ -15,3 +15,11 @@ $(document).ready(function () {
     $('img#work1').hover(function () {
         $(this).stop().animate({ opacity: .4 });
         $('.text-block1').fadeToggle();
+    }, function () {
+        $(this).stop(true, true).animate({ opacity: 1 });
+        $('.text-block1').fadeToggle();
+    });
+
+    $('img#work2').hover(function () {
+        $(this).stop().animate({ opacity: .4 });
+        $('.text-block2').fadeToggle();

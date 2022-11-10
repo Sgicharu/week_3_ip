@@ -1,5 +1,7 @@
 ### Project Name
 
+Delani Studio
+
 ### Author Name
 
 ### Description of Project

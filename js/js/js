@@ -33,3 +33,85 @@ $(document).ready(function () {
         $('.text-block3').fadeToggle();
     }, function () {
         $(this).stop(true, true).animate({ opacity: 1 });
+        $('.text-block3').fadeToggle();
+    });
+    $('img#work4').hover(function () {
+        $(this).stop().animate({ opacity: .4 });
+        $('.text-block4').fadeToggle();
+    }, function () {
+        $(this).stop(true, true).animate({ opacity: 1 });
+        $('.text-block4').fadeToggle();
+    });
+    
+    $('img#work5').hover(function () {
+        $(this).stop().animate({ opacity: .4 });
+        $('.text-block5').fadeToggle();
+    }, function () {
+        $(this).stop(true, true).animate({ opacity: 1 });
+        $('.text-block5').fadeToggle();
+    });
+
+    $('img#work6').hover(function () {
+        $(this).stop().animate({ opacity: .4 });
+        $('.text-block6').fadeToggle();
+    }, function () {
+        $(this).stop(true, true).animate({ opacity: 1 });
+        $('.text-block6').fadeToggle();
+    });
+
+    $('img#work7').hover(function () {
+        $(this).stop().animate({ opacity: .4 });
+        $('.text-block7').fadeToggle();
+    }, function () {
+        $(this).stop(true, true).animate({ opacity: 1 });
+        $('.text-block7').fadeToggle();
+    });
+
+    $('img#i8').hover(function () {
+        $(this).stop().animate({ opacity: .4 });
+        $('.text-block8').fadeToggle();
+    }, function () {
+        $(this).stop(true, true).animate({ opacity: 1 });
+        $('.text-block8').fadeToggle();
+    });
+
+
+
+    $('img#design').click(function () {
+        $('h4#design').css("font-weight", "bold");
+        $('.clickable-a').toggle();
+        $('.design').toggle();
+    });
+    $('.clickable-a').click(function () {
+        $('.design').toggle();
+        $('.clickable-a').toggle();
+    });
+
+    $('img#development').click(function () {
+        $('h4#development').css('font-weight', 'bold');
+        $('.clickable-b').toggle();
+        $('.development').toggle();
+    });
+    $('.clickable-b').click(function () {
+        $('.development').toggle();
+        $('.clickable-b').toggle();
+    });
+
+    $('img#product').click(function () {
+        $('h4#product').css('font-weight', 'bold');
+        $('.clickable-c').toggle();
+        $('.product').toggle();
+    });
+    $('.clickable-c').click(function () {
+        $('.product').toggle();
+        $('.clickable-c').toggle();
+    });
+
+    $('button#submitform').click(function(event){
+       var name = $('input#name').val();
+
+        alert('Hi ' + name + ' we have received your message. Thank you for reaching out to us');
+
+        event.preventDefault();
+    })
+});

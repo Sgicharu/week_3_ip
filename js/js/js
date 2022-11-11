@@ -8,7 +8,7 @@ $(document).ready(function () {
 	    $('.text-block6').hide();
 	    $('.text-block7').hide();
 	    $('.text-block8').hide();
-    // $('img#8').animate({
+    // $('img2.jpg').animate({
     //     opacity: 1
     // });
     //create a hover effect on each photo on portfolio
@@ -97,7 +97,7 @@ $(document).ready(function () {
         $('.clickable-b').toggle();
     });
 
-    $('img#product').click(function () {
+    $('sec.jpg').click(function () {
         $('h4#product').css('font-weight', 'bold');
         $('.clickable-c').toggle();
         $('.product').toggle();
